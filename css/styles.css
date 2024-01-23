@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer {
+    padding: 1rem 4rem;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin-inline: 2rem;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1586809764311-090bc6068916?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.hero .content {
+    margin-left: 5rem;
+}
+
+.hero h1 {
+    font-size: 8rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.hero h2 {
+    color: white;
+    margin: 0.4rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.article-img {
+    max-width: 35rem;
+}
+
+.studies,
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 6rem;
+}
+
+.studies article,
+.hobbies article {
+    display: flex;
+}
+
+.paragraph-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studies p {
+    padding-right: 2rem;
+}
+
+.hobbies p {
+    padding-left: 2rem;
+}
+
+button.back-to-top {
+    visibility: hidden;
+}
+
+button.back-to-top.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: cornflowerblue;
+    font-size: 1.5rem;
+    right: 1.5rem;
+    bottom: 3rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    border: none;
+    padding: 2rem;
+    visibility: visible;
+}
+
+.arrow {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+}
+
+footer li {
+    margin-block: 2rem;
+}
